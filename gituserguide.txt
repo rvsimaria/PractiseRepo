@@ -1,0 +1,41 @@
+1. configure user information
+	git config --global user.name "Your name"
+	git config --global user.email "Your email id"
+	git config --global branch.autosetuprebase always
+	git config --global color.ui true
+	git config --global color.status auto
+	git config --global color.branch auto
+	git config --global core.editor vim
+	git config --global merge.tool vimdiff
+	git config --list
+
+2. To clone git repositery first time use
+	
+	git clone https://github.com/user/Repo-name
+
+3. go inside project directry
+
+4. add new file 
+	a) create new file using your editor.
+	b) use command
+		git add filename
+	c) to check status use command
+		git status
+	d) then use commit to update added file using command
+		git commit -m "your comment"
+	e)
+		git pull
+	f)
+		git push
+	g)
+		git push origin master
+
+5.delate file
+	a) 
+		git rm filename
+	b)
+		git commit -m "your comment"
+	c)
+		git pull
+	d)
+		git push
