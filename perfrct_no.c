@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-#define LKT
+/*#define LKT*/
 
 #define int_64 unsigned long long int
 
